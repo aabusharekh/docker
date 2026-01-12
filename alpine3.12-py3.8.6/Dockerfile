@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.23.2
 RUN apk update && apk upgrade
 RUN apk add --no-cache python3 
 RUN rm -rf \
