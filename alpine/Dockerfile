@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.23.2
 RUN apk update && apk upgrade
 RUN rm -rf \
       /usr/share/man/* \
